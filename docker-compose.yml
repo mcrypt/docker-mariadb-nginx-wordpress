@@ -64,3 +64,8 @@ volumes:
     driver_opts:
       type: tmpfs
       device: tmpfs
+
+ networks:
+   default:
+     external:
+       name: ${NETWORK}
